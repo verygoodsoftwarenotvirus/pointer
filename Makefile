@@ -1,0 +1,3 @@
+.PHONY: test
+test:
+	go test -cover -shuffle=on -race -vet=all -failfast ./...

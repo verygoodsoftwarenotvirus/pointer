@@ -1,0 +1,8 @@
+# .goreleaser.yaml
+builds:
+  # You can have multiple builds defined as a yaml list
+  - # If true, skip the build.
+    # Useful for library projects.
+    #
+    # Templates: allowed (since v2.3).
+    skip: true
